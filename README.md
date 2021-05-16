@@ -19,3 +19,4 @@ Run:
   + then go to /ShowMyTime.SPA directory and execute 'ng serve' command.
 .NET project would run on http://localhost:5000 and Angular project on http://localhost:4200/.
 
+![alt_text](https://github.com/KSchlagowski/ShowMyTime/blob/master/ShowMyTimePreview.png)
