@@ -3,6 +3,7 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using ShowMyTime.Application.Interfaces;
+using ShowMyTime.Domain.Enums;
 
 namespace ShowMyTime.Application.Services
 {
@@ -38,11 +39,11 @@ namespace ShowMyTime.Application.Services
             {
                 System.Console.WriteLine(e.StatusCode);
                 
-                if (e.StatusCode.ToString() == "ServiceUnavailable")
+                if (e.StatusCode == System.Net.HttpStatusCode.ServiceUnavailable)
                 {
                     msg = "503";
                 }
-                if (e.StatusCode.ToString() == "NotFound")
+                if (e.StatusCode == System.Net.HttpStatusCode.NotFound)
                 {
                     msg = "404";
                 }
