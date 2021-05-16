@@ -1,0 +1,5 @@
+{
+    "BaseApiPath": "http://worldtimeapi.org/api/timezone",
+    "UserTimeZone": "/Europe/London",
+    "AllTimeZonesApiPath": "http://worldtimeapi.org/api/timezone.txt"
+}
