@@ -6,6 +6,7 @@ Time zone can be changed in ShowMyTimeConfigurationFile.json in UserTimeZone par
 
 
 To run this project you need to install .NET 5.0 and Angular Client. 
+
 Configuration:
   + Go to /ShowMyTime.API directory and execute 'dotnet restore' command,
   + then go to /ShowMyTime.SPA directory and execute 'npm install' command,
